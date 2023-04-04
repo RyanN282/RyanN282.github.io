@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <header>
+        <button class="nav_toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About me</a></li>
+                <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                <li class="nav_item"><a href="#footer_link" class="nav_link">Contact info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Intro-->
+    <section class="intro" id="#home">
+        <h1 class="section_title section_title-intro">
+            Hi, I am <strong>Ryan Noscoe</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle-intro">Junior Software Developer</p>
+        <img src="img/image1.jpg" alt="Swansea" class="intro_image">
+    </section>
+
+    <!--About me-->
+    <section class="about_me" id="#about">
+        <h2 class="section_title section_title-about">About me</h2>
+        <p class="section_subtitle section_subtitle-about"></p>
+
+        <div class="about_me_body">
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="img/image2.jpg" alt="Swansea" class="about_me_image"
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="#projects">
+        <h2 class="section_title section_title-project">My projects</h2>
+        <p class="section_subtitle section_subtitle-project"></p>
+
+        <div class="portfolio">
+            <!--Portfolio item #1-->
+            <a href="#" class="portfolio_item">
+                <img src="portfolio-1.jpg" alt="" class="portfolio_img">
+            </a>
+            <!--Portfolio item #2-->
+            <a href="#" class="portfolio_item">
+                <img src="portfolio-2.jpg" alt="" class="portfolio_img">
+            </a>
+            <!--Portfolio item #3-->
+            <a href="#" class="portfolio_item">
+                <img src="portfolio-3.jpg" alt="" class="portfolio_img">
+            </a>
+            <!--Portfolio item #4-->
+            <a href="#" class="portfolio_item">
+                <img src="portfolio-4.jpg" alt="" class="portfolio_img">
+            </a>
+            <!--Portfolio item #5-->
+            <a href="#" class="portfolio_item">
+                <img src="portfolio-5.jpg" alt="" class="portfolio_img">
+            </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <a href="emailToMe" class="#footer_link">noscoeryan@gmail.com</a>
+        <ul class="social_list">
+            <li class="social_list_item"><a class="social_list_link" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="social_list_item"><a class="social_list_link" href="#"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
 </body>
+<script src="https://kit.fontawesome.com/afec362ffe.js" crossorigin="anonymous"></script>
 </html>
