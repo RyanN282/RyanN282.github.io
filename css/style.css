@@ -251,9 +251,7 @@ header {
     position: relative;
 }
 
-.intro__img {
-    box-shadow: var(--bs);
-}
+
 
 .section__subtitle--intro {
     display: inline-block;
